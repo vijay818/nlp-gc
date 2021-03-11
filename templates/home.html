@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+    
+            .poc{
+              height: 300px;
+              background: #fff6f6;
+              padding: 20px;
+              border-radius: 10px;
+            }
+      
+            .firstimg{
+              width: 220px;
+              height: 150px;
+              border-radius: 8px;
+            }
+            .right {
+              border-radius: 10px;
+              width: 100%;
+              height: 90%;
+            }
+      
+            .heading .jumbotron {
+              /* background-image: linear-gradient(rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(https://github.com/avi268/Images/blob/main/spin.jfif?raw=true); */
+              background-position: center;
+              background-size: 100%;
+            }
+      
+            i{
+              padding-right: 10px;
+            }
+            #youranalytics{
+              background-image: linear-gradient(rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(https://img.freepik.com/free-vector/abstract-trendy-black-line-pattern-decoration-background_121035-76.jpg?size=626&ext=jpg);
+              background-position: center;
+              background-size: 100%;
+            }
+          </style>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="">
+        <img src="data:image/jpeg;base64,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" width="50" height="37"alt="">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+      <li><a class="navbar-brand" href="" height=100>Text Mining</a></li>
+    </ul>
+    <span class="navbar-text">
+      <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" style="font-size:30px"></i></a>
+      <a href="https://www.linkedin.com/company/"><i class="fa fa-linkedin-square" style="font-size:30px"></i></a>
+      <a href="https://twitter.com/"><i class="fa fa-twitter-square" style="font-size:30px"></i></a>
+    </span>
+  </nav><br>
+
+<div class="heading">
+    <div class="jumbotron text-left">
+                <form action = "" method = "POST" enctype = "multipart/form-data">
+                  <label for="">Quotation File: </label>
+                    <input type = "file" name = "quotefile"><br>
+                    <label for="">Spec File: </label>
+                    <input type = "file" name = "specfile"><br>
+                    <label for="">Enter your Email: </label>
+                    <input type="email" name="email"><br>
+                    <input type = "submit">
+                </form>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-3">
+      <p>{{ date_outputs }}<p><br>
+      <p>{{ organization }}<p>
+    </div>
+    <div class="col-9">
+        {% for table in tables %}
+            {{titles[loop.index]}}
+            {{ table|safe }}
+        {% endfor %}
+    </div>
+
+
+</div>
+
+</html>
